@@ -1,0 +1,19 @@
+.app {
+    background-color: $alt;
+
+    @media #{$mobile-only} {
+        background-color: $primary;
+    }
+
+}
+
+.text {
+    @include heading1();
+    color: $primary;
+    text-align: center;
+
+    @media #{$mobile-only} {
+        color: $alt;
+    }
+
+}
